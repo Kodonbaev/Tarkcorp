@@ -1,2 +1,2 @@
-# SolarElectro
-## https://kodonbaev.github.io/SolarElectro/.
+# Tarkcorp
+## https://kodonbaev.github.io/Tarkcorp/.
