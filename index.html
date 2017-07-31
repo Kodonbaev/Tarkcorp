@@ -1,432 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/font-awesome.css">
 	<link rel="stylesheet" href="css/slick.css">
 	<link rel="stylesheet" href="css/slick-theme.css">
 	<link rel="stylesheet" href="css/style.css">
-	<title>SolarElectro</title>
+	<title>Trakcorp</title>
 </head>
 
 <body>
-	<div class="container">
-		<header class="header">
-			<div class="header__menu">
+	<header class="header">
+		<div class="container">
+			<div class="header-content">
+				<div class="logo"><a href="#"><img src="uploads/logo.png" width="248" height="239"  alt="Logo"></a></div>
 				<div class="menu">
-					<div class="menu__icon"><i class="fa fa-bars" aria-hidden="true"></i>
+					<h3 class="menu-capital">Мочевина <b>AdBlue<span>&#174</span></b><br><span>мобильные заправки</span></h3>
+					<div class="menu-contact">
+						<h3 >+7 (495) 664-62-48</h3>
+						<a href="#">Напишите нам  </a><span>&#9679</span>
+						<a href="#">Обратный звонок</a>
 					</div>
-					<div class="menu__nav">
-						<a href="#">Главная</a>
-						<a href="#">Новости</a>
+					<div class="menu-social">
+						<a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a>
+					</div>
+					<div class="menu-official">
+						<a href="#">где купить</a>
+						<b>&#9679</b>
+						<a href="#">Наши плюсы</a>
+						<b>&#9679</b>
 						<a href="#">Статьи</a>
-						<a href="#">Доставка</a>
-						<a href="#">Оплата</a>
-						<a href="#">Условия</a>
-						<a href="#">Контакты</a>
+						<b>&#9679</b>	
+						<a href="#">контакты</a>
 					</div>
 				</div>
 			</div>
-			<div class="header__btn">
-				<form action="">
-					<input type="text" placeholder="Поиск товаров">
-					<button class="search"></button>
-				</form>
-			</div>
-		</header>
-		<div class="header-logo">
-			<div class="logo">
-				<a href="#"><img src="uploads/logo.jpg" width="293" height="61" alt="Logo"></a>
-			</div>
-			<div class="contact">
-				<div class="contact__phone">
-					<span class="phone">+7 (812) <b>389–58-51</b></span>
-					<span class="phone">+7 (812) <b>995–54-98</b></span>
-					<span class="time-work">Часы работы: пн.-пт: 9–19 ч.</span>
-				</div>
-				<div class="contact__call">
-					<a href="#">Обратный<br> звонок</a>
-				</div>
-				<div class="contact__account">
-					<a href="#">Вход</a>
-					<a href="#">Регитсрация</a>
-				</div>
-			</div>
-			<div class="card-order">
-				<span class="card-main">Корзина</span>
-				<span class="card-text">Корзина пуста</span>
-			</div>
+
 		</div>
-		<div class="header-catalog">
-			<a href="#">Солнечные Элекстростанции</a>
-			<a href="#">Солнечные батареи</a>
-			<a href="#">ибп для дома</a>
-			<a href="#" class="link-drop">аккумуляторы</a>
-			<a href="#">инверторы</a>
-			<a href="#">контроллеры</a>
-			<a href="#">генераторы</a>
-			<a href="#" class="last-link">разное</a>
-		</div>
-		<div class="slider">
-			<div class="slider-box">
-				<a href="#">
-					<img src="uploads/promo.jpg" width="1000" height="303" alt="Banner">
-				</a>
-			</div>
-			<div class="slider-box">
-				<img src="uploads/promo.jpg" alt="Banner">
-			</div>
-			<div class="slider-box">
-				<img src="uploads/promo.jpg" alt="Banner">
-			</div>
-		</div>
-		<main class="banner">
-			<div class="banner--box">
-				<div class="banner--box__main">
-					<h2 class="box-main"><a href="#">Нет электричества?</a></h2>
-					<span class="box-text">Ваш поселок еще не подключен к электросети? Мы решим эту задачу в кратчайшие сроки. <b>Если нет электричества то:</b></span>
-				</div>
-				<div class="banner--box__checed">
-					<a href="#">Экономия денег!</a>
-					<a href="#">Полностью автомотически!</a>
-				</div>
-				<div class="banner--box__order">
-					<div class="order-text">
-						<span class="order-main">от 21 00 т.руб.</span>
-						<span class="order-calc">Рассчитать</span>
-					</div>
-					<div class="banner--box__order__btn">
-						<button class="order-btn">Заказать</button>
-					</div>
-				</div>
-				<div class="banner--box__slider">
-					<h2 class="slider-main">Наше решение:</h2>
-					<div class="slider-order">
-						<div class="slider-box">
-							<div class="slider-content">
-								<img src="uploads/card-img.jpg" width="199" height="159" alt="Blurd">
-								<span class="slider-text"><a href="#">Солнечная панель Perlight PLM-100M</a></span>
-								<span class="slider-price"><a href="#">76 600</a></span>
-								<span class="slider-price2"><a href="#">5 300 руб.</a></span>
-								<button class="slider-btn">Купить</button>
-							</div>
-							<div class="slider-content">
-								<img src="uploads/card-img.jpg" width="199" height="159" alt="Blurd">
-								<span class="slider-text"><a href="#">Солнечная панель Perlight PLM-100M</a></span>
-								<span class="slider-price"><a href="#">76 600</a></span>
-								<span class="slider-price2"><a href="#">5 300 руб.</a></span>
-								<button class="slider-btn">Купить</button>
-							</div>
-						</div>
-						<div class="slider-box">
-							<div class="slider-content">
-								<img src="uploads/card-img.jpg" width="199" height="159" alt="Blurd">
-								<span class="slider-text"><a href="#">Солнечная панель Perlight PLM-100M</a></span>
-								<span class="slider-price"><a href="#">76 600</a></span>
-								<span class="slider-price2"><a href="#">5 300 руб.</a></span>
-								<button class="slider-btn">Купить</button>
-							</div>
-							<div class="slider-content">
-								<img src="uploads/card-img.jpg" width="199" height="159" alt="Blurd">
-								<span class="slider-text"><a href="#">Солнечная панель Perlight PLM-100M</a></span>
-								<span class="slider-price"><a href="#">76 600</a></span>
-								<span class="slider-price2"><a href="#">5 300 руб.</a></span>
-								<button class="slider-btn">Купить</button>
-							</div>
-						</div>
-					</div>
-					<p class="banner-link"><a href="#">Перейти в каталог</a></p>
+		<!-- <div class="container">
+			<div class="info-locatoin">
+				<div class="location">
+					<h4 class="location__main">М-5, г.Рязань </h4>
+					<span>Тел: +7 (920) 977-61-88</span>
+					<a href="#">Показать на карте</a>
 				</div>
 			</div>
-			<div class="banner--box">
-				<div class="banner--box__main">
-					<h2 class="box-main"><a href="#">Нет электричества?</a></h2>
-					<span class="box-text">Ваш поселок еще не подключен к электросети? Мы решим эту задачу в кратчайшие сроки. <b>Если нет электричества то:</b></span>
-				</div>
-				<div class="banner--box__checed">
-					<a href="#">Экономия денег!</a>
-					<a href="#">Полностью автомотически!</a>
-				</div>
-				<div class="banner--box__order">
-					<div class="order-text">
-						<span class="order-main">от 21 00 т.руб.</span>
-						<span class="order-calc">Рассчитать</span>
-					</div>
-					<div class="banner--box__order__btn">
-						<button class="order-btn">Заказать</button>
-					</div>
-				</div>
-				<div class="banner--box__slider">
-					<h2 class="slider-main">Наше решение:</h2>
-					<div class="slider-order">
-						<div class="slider-box">
-							<div class="slider-content">
-								<img src="uploads/card-img.jpg" width="199" height="159" alt="Blurd">
-								<span class="slider-text"><a href="#">Солнечная панель Perlight PLM-100M</a></span>
-								<span class="slider-price"><a href="#">76 600</a></span>
-								<span class="slider-price2"><a href="#">5 300 руб.</a></span>
-								<button class="slider-btn">Купить</button>
-							</div>
-							<div class="slider-content">
-								<img src="uploads/card-img.jpg" width="199" height="159" alt="Blurd">
-								<span class="slider-text"><a href="#">Солнечная панель Perlight PLM-100M</a></span>
-								<span class="slider-price"><a href="#">76 600</a></span>
-								<span class="slider-price2"><a href="#">5 300 руб.</a></span>
-								<button class="slider-btn">Купить</button>
-							</div>
-						</div>
-						<div class="slider-box">
-							<div class="slider-content">
-								<img src="uploads/card-img.jpg" width="199" height="159" alt="Blurd">
-								<span class="slider-text"><a href="#">Солнечная панель Perlight PLM-100M</a></span>
-								<span class="slider-price2"><a href="#">76 600</a></span>
-								<span class="slider-price"><a href="#">5 300 руб.</a></span>
-								<button class="slider-btn">Купить</button>
-							</div>
-							<div class="slider-content">
-								<img src="uploads/card-img.jpg" width="199" height="159" alt="Blurd">
-								<span class="slider-text"><a href="#">Солнечная панель Perlight PLM-100M</a></span>
-								<span class="slider-price"><a href="#">76 600</a></span>
-								<span class="slider-price2"><a href="#">5 300 руб.</a></span>
-								<button class="slider-btn">Купить</button>
-							</div>
-						</div>
-					</div>
-					<p class="banner-link"><a href="#">Перейти в каталог</a></p>
-				</div>
-			</div>
-			<div class="banner--box">
-				<div class="banner--box__main">
-					<h2 class="box-main"><a href="#">Хотите экономить?</a></h2>
-					<span class="box-text">Ваш поселок еще не подключен к электросети? Мы решим эту задачу в кратчайшие сроки. <b>Если нет электричества то:</b></span>
-				</div>
-				<div class="banner--box__checed">
-					<a href="#">Экономия денег!</a>
-					<a href="#">Полностью автомотически!</a>
-				</div>
-				<div class="banner--box__order">
-					<div class="order-text">
-						<span class="order-main">от 21 00 т.руб.</span>
-						<span class="order-calc">Рассчитать</span>
-					</div>
-					<div class="banner--box__order__btn">
-						<button class="order-btn">Заказать</button>
-					</div>
-				</div>
-				<div class="banner--box__slider">
-					<h2 class="slider-main">Наше решение:</h2>
-					<div class="slider-order">
-						<div class="slider-box">
-							<div class="slider-content">
-								<img src="uploads/card-img.jpg" width="199" height="159" alt="Blurd">
-								<span class="slider-text"><a href="#">Солнечная панель Perlight PLM-100M</a></span>
-								<span class="slider-price"><a href="#">76 600</a></span>
-								<span class="slider-price2"><a href="#">5 300 руб.</a></span>
-								<button class="slider-btn">Купить</button>
-							</div>
-							<div class="slider-content">
-								<img src="uploads/card-img.jpg" width="199" height="159" alt="Blurd">
-								<span class="slider-text"><a href="#">Солнечная панель Perlight PLM-100M</a></span>
-								<span class="slider-price"><a href="#">76 600</a></span>
-								<span class="slider-price2"><a href="#">5 300 руб.</a></span>
-								<button class="slider-btn">Купить</button>
-							</div>
-						</div>
-						<div class="slider-box">
-							<div class="slider-content">
-								<img src="uploads/card-img.jpg" width="199" height="159" alt="Blurd">
-								<span class="slider-text"><a href="#">Солнечная панель Perlight PLM-100M</a></span>
-								<span class="slider-price"><a href="#">76 600</a></span>
-								<span class="slider-price2"><a href="#">5 300 руб.</a></span>
-								<button class="slider-btn">Купить</button>
-							</div>
-							<div class="slider-content">
-								<img src="uploads/card-img.jpg" width="199" height="159" alt="Blurd">
-								<span class="slider-text"><a href="#">Солнечная панель Perlight PLM-100M</a></span>
-								<span class="slider-price"><a href="#">76 600</a></span>
-								<span class="slider-price2"><a href="#">5 300 руб.</a></span>
-								<button class="slider-btn">Купить</button>
-							</div>
-						</div>
-					</div>
-					<p class="banner-link"><a href="#">Перейти в каталог</a></p>
-				</div>
-			</div>
-			<div class="banner--box">
-				<div class="banner--box__main">
-					<h2 class="box-main"><a href="#">Не хватает мощности?</a></h2>
-					<span class="box-text">Ваш поселок еще не подключен к электросети? Мы решим эту задачу в кратчайшие сроки. <b>Если нет электричества то:</b></span>
-				</div>
-				<div class="banner--box__checed">
-					<a href="#">Экономия денег!</a>
-					<a href="#">Полностью автомотически!</a>
-				</div>
-				<div class="banner--box__order">
-					<div class="order-text">
-						<span class="order-main">от 21 00 т.руб.</span>
-						<span class="order-calc">Рассчитать</span>
-					</div>
-					<div class="banner--box__order__btn">
-						<button class="order-btn">Заказать</button>
-					</div>
-				</div>
-				<div class="banner--box__slider">
-					<h2 class="slider-main">Наше решение:</h2>
-					<div class="slider-order">
-						<div class="slider-box">
-							<div class="slider-content">
-								<img src="uploads/card-img.jpg" width="199" height="159" alt="Blurd">
-								<span class="slider-text"><a href="#">Солнечная панель Perlight PLM-100M</a></span>
-								<span class="slider-price"><a href="#">76 600</a></span>
-								<span class="slider-price2"><a href="#">5 300 руб.</a></span>
-								<button class="slider-btn">Купить</button>
-							</div>
-							<div class="slider-content">
-								<img src="uploads/card-img.jpg" width="199" height="159" alt="Blurd">
-								<span class="slider-text"><a href="#">Солнечная панель Perlight PLM-100M</a></span>
-								<span class="slider-price"><a href="#">76 600</a></span>
-								<span class="slider-price2"><a href="#">5 300 руб.</a></span>
-								<button class="slider-btn">Купить</button>
-							</div>
-						</div>
-						<div class="slider-box">
-							<div class="slider-content">
-								<img src="uploads/card-img.jpg" width="199" height="159" alt="Blurd">
-								<span class="slider-text"><a href="#">Солнечная панель Perlight PLM-100M</a></span>
-								<span class="slider-price"><a href="#">76 600</a></span>
-								<span class="slider-price2"><a href="#">5 300 руб.</a></span>
-								<button class="slider-btn">Купить</button>
-							</div>
-							<div class="slider-content">
-								<img src="uploads/card-img.jpg" width="199" height="159" alt="Blurd">
-								<span class="slider-text"><a href="#">Солнечная панель Perlight PLM-100M</a></span>
-								<span class="slider-price"><a href="#">76 600</a></span>
-								<span class="slider-price2"><a href="#">5 300 руб.</a></span>
-								<button class="slider-btn">Купить</button>
-							</div>
-						</div>
-					</div>
-					<p class="banner-link"><a href="#">Перейти в каталог</a></p>
-				</div>
-			</div>
-		</main>
-		<div class="service">
-			<div class="service--item">
-				<a href="#" class="service-link"><span class="service-text">монтаж нашими специалистами в спб</span></a>
-			</div>
-			<div class="service--item">
-				<a href="#" class="service-link2"><span class="service-text">подобрать оборудование</span></a>
-			</div>
-			<div class="service--item service--last">
-				<a href="#" class="service-link3"><span class="service-text">бесплатная доставка по спб</span></a>
-			</div>
-		</div>
-		<article class="article">
-			<h2 class="article--main">О магазине</h2>
-			<p class="article--text">Основными направлениями деятельности компании являются альтернативная энергетика, резервное и автономное электроснабжение. Мы предлагаем оборудование и комплексные системы автономного или резервного электроснабжения, включая солнечные электростанции,от простых вариантов для дачи и до больших сетевых систем высокой мощности.Мы осуществляем проектирование, поставку и монтаж оборудования, пусконаладочные работы и техническую поддержку заказчика. Наша компания предлагает оборудование через розничный интернет-магазин SolarElectro и оптовые поставки оборудования из Европы и Китая. Прямые контакты с производителями и дистрибьюторами позволяют в короткие сроки осуществить поставку товаров, в том числе и под заказ. Мы организуем доставку в любой регион России. <a href="#">Читать весь текст>></a></p>
-		</article>
-		<div class="info-gallery">
-			<div class="info">
-				<h2 class="info--main">Новости</h2>
-				<div class="info--content">
-					<div class="info-box">
-						<img src="uploads/info-img.png" width="179" height="84" alt="New">
-						<span class="info-box__data">1.05.2017</span>
-						<span class="info-box__text">Праздники продолжаются!!!  Скидка 15% на Stark Country</span>
-						<a href="#" class="info-box__expand">Все новости</a>
-					</div>
-					<div class="info-box">
-						<img src="uploads/info-img.png" width="179" height="84" alt="New">
-						<span class="info-box__data">1.05.2017</span>
-						<span class="info-box__text">Праздники продолжаются!!!  Скидка 15% на Stark Country</span>
-					</div>
-				</div>
-				<h2 class="info--main">Статьи</h2>
-				<div class="info--content">
-					<div class="info-box">
-						<img src="uploads/article-img.png" width="179" height="84" alt="New">
-						<span class="info-box__data">1.05.2017</span>
-						<span class="info-box__text">Праздники продолжаются!!!  Скидка 15% на Stark Country</span>
-						<a href="#" class="info-box__expand">Все новости</a>
-					</div>
-					<div class="info-box">
-						<img src="uploads/article-img.png" width="179" height="84" alt="New">
-						<span class="info-box__data">1.05.2017</span>
-						<span class="info-box__text">Праздники продолжаются!!!  Скидка 15% на Stark Country</span>
-					</div>
-				</div>
-			</div>
-			<div class="gallery">
-				<h2 class="gallery--main">Наши работы</h2>
-				<div class="gallery--content">
-					<img src="uploads/promo-work(1).jpg" width="161" height="174" alt="Gallery">
-					<img src="uploads/promo-work(2).jpg" width="161" height="174" alt="Gallery">
-					<img src="uploads/promo-work(3).jpg" width="161" height="174" alt="Gallery">
-					<img src="uploads/promo-work(4).jpg" width="161" height="174" alt="Gallery">
-					<img src="uploads/promo-work(5).jpg" width="161" height="174" alt="Gallery">
-					<img src="uploads/promo-work(6).jpg" width="161" height="174" alt="Gallery">
-				</div>
-				<span class="gallery--text"><a href="#">Посмотреть наши работы</a></span>
-			</div>
-		</div>
-		<footer class="footer">
-			<div class="f--left">
-				<div class="f--left__logo"><img src="uploads/logo2.png" width="373" height="76" alt="Logo"></div>	
-				<div class="f--left__contact">
-					<div class="f-contact">
-						<span class="phone">+7 (812) <b>389–58-51</b></span>
-						<span class="phone">+7 (812) <b>995–54-98</b></span>
-						<a href="#">Задать вопрос</a>
-						<a href="#">Перезвонить мне</a>
-					</div>
-					<p class="contact-text-f">г. Санкт-Петербург, ул. Мебельная, д.12,к. 1, лит А, <a href="#">contact@solarelectro.ru</a></p>
-					<div class="social">
-						<a class="social--vk" href="#"></a>
-						<a class="social--fb" href="#"></a>
-						<a class="social--tw" href="#"></a>
-						<a class="social--ok" href="#"></a>
-						<a class="social--insta" href="#"></a>
-						<a class="social--yt" href="#"></a>
-					</div>
-				</div>
-			</div>
-			<div class="f--center">
-				<h3 class="f--center__main">Каталог</h3>
-				<ul>
-					<li><a href="#">Солнечные электростанции</a></li>
-					<li><a href="#">Солнечные батареи</a></li>
-					<li><a href="#">ИБП для дома</a></li>
-					<li><a href="#">Аккумуляторы</a></li>
-				</ul>
-				<ul>
-					<li><a href="#">Инверторы</a></li>
-					<li><a href="#">Контроллеры</a></li>
-					<li><a href="#">Генераторы</a></li>
-				</ul>
-				<ul>
-					<li><a href="#">Разное</a></li>
-				</ul>
-			</div>
-			<div class="f--rigth">
-				<h3 class="f--center__main">Способ оплаты</h3>
-				<p>Вы можете оплатить покупки наличными при получении, либо выбрать <a href="#">другой способ оплаты</a></p>
-			</div>
-		</footer>
-		<div class="footer--last">
-				<span class="footer--last__text">© SolarElectro 2013-2016</span>
-				<div class="footer--last__link">
-					<a href="#">Главная</a>
-					<a href="#">Новости</a>
-					<a href="#">Статьи</a>
-					<a href="#">Доставка</a>
-					<a href="#">Оплата</a>
-					<a href="#">Условия</a>
-					<a href="#">Контакты</a>
-				</div>
-			</div>
-	</div>
+		</div> -->
+	</header>
 	<script src="vendor/jquery/jquery-3.1.1.min.js"></script>
 	<script src="vendor/slick/slick.js"></script>
 	<script src="js/main.js"></script>
